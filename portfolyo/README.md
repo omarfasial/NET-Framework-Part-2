@@ -1,78 +1,25 @@
-# C# and .NET Framework Portfolio - Huseyin Dilek
+# .NET Framework – Part 2
 
-This repository showcases my journey and technical expertise gained through various C# projects using the .NET Framework. Each project demonstrates different aspects of software development, from basic programming concepts to advanced architectural patterns.
+A collection of small exercises and course projects written in **C#** for the **.NET Framework**.  
+Each folder is a standalone assignment you can open and run in **Visual Studio (Windows)**.
 
-## Technical Skills Acquired
+---
 
-- Object-Oriented Programming in C#
-- ASP.NET MVC Architecture
-- Entity Framework 6 Data Access
-- SOLID Design Principles
-- Interface Implementation
-- Polymorphism and Inheritance
-- Data Validation and Error Handling
-- Database Management with SQL
+## Repository Map
 
-## Projects
+- `asp/` – Intro ASP.NET MVC sample demonstrating controllers, views, simple models, and routing.
+- `final/` – Capstone submission that brings together OOP, collections, error handling, and basic data access patterns.
+- `method/` – Practice problems focused on methods (parameters, overloading, return values) and class design.
+- `operators/` – Short programs exploring arithmetic, comparison, and logical operators (with precedence/short-circuit cases).
+- `polymorphism/` – Inheritance, abstract classes/interfaces, virtual/override members, and runtime polymorphism examples.
+- `portfolyo/` – A simple personal portfolio assignment that links or summarizes completed work.
 
-### Car Insurance Calculator (ASP.NET MVC)
+> Folder names and structure are taken from the repository contents. You can browse them directly in GitHub. :contentReference[oaicite:0]{index=0}
 
-A sophisticated web application implementing business logic for car insurance quote calculations.
+---
 
-**Technical Highlights:**
-- MVC architectural pattern implementation
-- Custom model validation
-- Entity Framework for data persistence
-- Secure admin interface with role-based access
-- Repository pattern for data access
+## Getting Started
 
-### Employee Management System (Polymorphism Demo)
-
-A console application demonstrating advanced OOP concepts through an employee management interface.
-
-**Implementation Details:**
-- Interface segregation with `IQuittable`
-- Property encapsulation with validation
-- Exception handling for robust error management
-- DateTime manipulation for employee records
-- Static collection management
-
-### Card Game Implementation
-
-A modular card game system showcasing object composition and game logic implementation.
-
-**Technical Features:**
-- Class inheritance hierarchy
-- Generic collections usage
-- Random number generation
-- Game state management
-- Console I/O handling
-
-### Student Records System (Entity Framework)
-
-A data-driven application for managing student information using Entity Framework.
-
-**Architecture Components:**
-- Code-First database approach
-- CRUD operations implementation
-- Custom DbContext configuration
-- Data annotations for model validation
-- Linq queries for data retrieval
-
-## Development Practices
-
-- Clean Code principles
-- Defensive programming
-- XML documentation
-- Unit testing
-- Version control with Git
-
-## Tools and Technologies
-
-- Visual Studio 2022
-- .NET Framework 4.8
-- SQL Server Management Studio
-- Entity Framework 6
-- Git for version control
-
-This portfolio represents my growth as a C# developer and demonstrates my ability to implement robust, maintainable solutions using modern development practices and the .NET Framework ecosystem.
+1. **Clone**
+   ```bash
+   git clone https://github.com/omarfasial/NET-Framework-Part-2.git
